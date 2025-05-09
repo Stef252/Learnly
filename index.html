@@ -1,25 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Learnly - Home</title>
-  <link rel="stylesheet" href="style/main.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Learnly</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <nav>
-    <img src="assets/logo.png" alt="Learnly Logo">
+    <h1>Learnly</h1>
     <ul>
       <li><a href="index.html">Home</a></li>
-      <li><a href="forum.html">Forum</a></li>
-      <li><a href="login.html">Login</a></li>
-      <li><a href="quizzes.html">Quizzen</a></li>
+      <li><a href="Forum.html">Forum</a></li>
+      <li><a href="Leren.html">Leren</a></li>
+      
     </ul>
   </nav>
-  <div class="container">
-    <h2>Welkom bij Learnly</h2>
-    <p>Jouw plek om te leren, vragen te stellen en antwoorden te delen.</p>
-    <a href="signup.html"><button>Meld je aan</button></a>
-  </div>
+
+  <main>
+    <h2>Welkom bij Learnly!</h2>
+    <p>Jouw persoonlijke leerplatform.</p>
+  </main>
+
+<script src="ShowMoreSubjects.js"></script>
+
 </body>
 </html>
+
+<section class="all-subjects">
+  <h2>Vakken</h2>
+  <div class="subjects-list">
+    <div class="subject-card">Wiskunde</div>
+    <div class="subject-card">Biologie</div>
+    <div class="subject-card">Geschiedenis</div>
+    <div class="subject-card">Aardrijkskunde</div>
+    <div class="subject-card">Engels</div>
+    <div class="subject-card extra hidden">Nederlands</div>
+    <div class="subject-card extra hidden">Frans</div>
+    <div class="subject-card extra hidden">Duits</div>
+  </div>
+
+  <h2>Recente Lijsten</h2>
+  <div class="list-cards">
+    <div class="list-card">
+      <h3>Hoofdstuk 2 – Getallen</h3>
+      <p>Wiskunde • 12 vragen</p>
+    </div>
+    <div class="list-card">
+      <h3>Fotosynthese en planten</h3>
+      <p>Biologie • 8 vragen</p>
+    </div>
+  </div>
+</section>
